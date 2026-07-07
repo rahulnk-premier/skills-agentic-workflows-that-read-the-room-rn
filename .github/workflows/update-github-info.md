@@ -15,6 +15,7 @@ network:
   allowed:
     - github.com
     - github.blog
+    - awesome-copilot.github.com
 tools:
   web-fetch: {}
   edit: {}
@@ -44,17 +45,20 @@ You are a content assistant helping Mona keep her GitHub Info site up to date.
 3. **Fetch the latest GitHub Changelog entries** from <https://github.blog/changelog/>
    and collect the most recent product and feature updates.
 
-4. **Read the current content** of `site/content/github-info.md` to understand
+4. **Fetch the latest Awesome Copilot workflows** from <https://awesome-copilot.github.com/workflows/>
+   and collect any new or notable workflow entries.
+
+5. **Read the current content** of `site/content/github-info.md` to understand
    what is already published.
 
-5. **Update `site/content/github-info.md`** with a concise summary of the new
-   posts and changelog entries. Apply Mona's editorial preferences:
+6. **Update `site/content/github-info.md`** with a concise summary of the new
+   posts, changelog entries, and Awesome Copilot workflows. Apply Mona's editorial preferences:
    - Keep summaries short and practical.
    - Prefer updates that help developers learn GitHub faster.
-   - Always mention the source (GitHub Blog or GitHub Changelog) for each item.
+   - Always mention the source (GitHub Blog, GitHub Changelog, or Awesome Copilot Workflows) for each item.
    - Preserve any existing content that is still accurate and relevant.
 
-6. **Open a pull request** with the updated file so Mona can review the changes
+7. **Open a pull request** with the updated file so Mona can review the changes
    before they go live. Use a clear title and include links to the source posts
    in the PR description.
 
