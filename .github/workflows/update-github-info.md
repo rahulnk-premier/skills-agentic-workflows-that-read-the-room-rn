@@ -13,7 +13,7 @@ permissions:
 strict: true
 network:
   allowed:
-    - defaults
+    - github.com
     - github.blog
 tools:
   web-fetch: {}
